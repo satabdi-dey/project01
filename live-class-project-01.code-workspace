@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "..\\live-class-project-01"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\live-class-project-2"
+		},
+		{
+			"path": "..\\my class projects\\live-class-project-3"
+		},
+		{
+			"path": "..\\my class projects\\live-class-project-04"
+		},
+		{
+			"path": "..\\my class projects"
+		},
+		{
+			"path": "..\\my class projects\\live-class-project-2"
+		},
+		{
+			"path": "..\\my class projects\\live-class-project-01"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "live-class-project-2"
+	}
+}

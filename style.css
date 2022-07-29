@@ -1,0 +1,166 @@
+
+img[src="/assets/Image.png"] {
+  width: 380px;
+}
+img[src="/assets/globe.png"] {
+  width: 60px;
+}
+img[src="/assets/squares.png"] {
+  width: 340px;
+}
+img[src="/assets/start.png"] {
+  width: 60px;
+}
+img[src="/assets/start1.png"] {
+  width: 40px;
+}
+img[src="/assets/Logo.png"] {
+  width: 140px;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  padding-left: 70px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  
+}
+.navbar-container{
+        display: flex;
+        flex-wrap: nowrap;
+  }
+        
+    
+.navbar-container > div {
+        
+        margin: 10px;
+        padding-right: 160px;
+        
+      } 
+.list-item:hover{
+    text-decoration: underline;
+    text-transform: bold;
+    font-size: 23px;
+    font-weight: 500;
+} 
+
+li {
+    display: inline;
+    text-align: center;
+    padding: 20px 25px;
+    font-family: "orbitron";
+    font-size: 20px;
+}
+.button-group{
+    display: block;
+}
+h1 {
+  font-size: 55px;
+  text-align: center;
+  margin-top: 10%;
+  font-family: "orbitron";
+  font-weight: 500;
+  margin-left: 8%;
+}
+.search-icon{
+    position: absolute;
+    right: 17%;
+    top: 10%;
+}
+.nav-button{
+    position: absolute;
+    right: 6%;
+    top: 10%;
+    font-family: "poppins";
+    font-size: 22px;
+    padding: 4px 35px 2px 35px;
+    border: 3px solid #1f1f1f;
+}
+.square{
+
+    position:absolute;
+      top: 48% ;
+      left:12%;
+      z-index:-1
+      
+    }
+    .square::after{
+      content: "";
+      background-image: url('/assets/start1.png');
+      position: absolute;
+      background-size: 80% ;
+      background-repeat: no-repeat;
+      width:50px;
+      height: 40px;
+      bottom: 10%;
+      right: -40%;
+    }
+    .star{
+        position:absolute;
+      top: 20%;
+      right:8%;
+          }
+    
+    
+    .globe{
+        position: absolute;
+        top:100px;
+        left: 55%;
+        size: 75%;
+    }
+.hero-container{
+   display: flex; 
+   padding-top: 3%;
+}
+
+
+p {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "poppins";
+  margin-left: 22%;
+  margin-right: 14%;
+}
+
+button {
+  
+  position: relative;
+  border-radius: 0.5em;
+  display: inline;
+  font-size: 19px;
+  text-align: center;
+ 
+}
+.button-email { 
+    font-family: "orbitron";
+    border: 3px solid #1f1f1f;
+    background-color: #ffffff;
+    color: #1f1f1f;
+    padding: 2px 25px 2px 25px;
+    left: 35%;
+    margin-top: 7%;
+}
+.button-join{
+    font-family: "orbitron";
+    background-color: #1f1f1f;
+    border: 3px solid #1f1f1f;
+    color: #ffffff ;
+    padding: 2px 5px 2px 5px; 
+    left: 35%;
+}
+h4 {
+    font-size: 25px;
+    text-align: center;
+    margin-top:5%;
+    margin-left: 5%;
+    font-family:"poppins" ;
+    font-weight: 500;
+  }
+  .icons{
+    position: absolute;
+   left:60%;
+   bottom:1%;
+  }
