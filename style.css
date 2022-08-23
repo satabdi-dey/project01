@@ -54,6 +54,7 @@ li {
 }
 .button-group{
     display: block;
+    float: right;
 }
 h1 {
   font-size: 55px;
